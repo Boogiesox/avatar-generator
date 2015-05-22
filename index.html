@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random Avatar Generation</title>
+	<style>
+		.pixel {
+			width: 10px;
+			height: 10px;
+		}
+		.fg {
+			background: #aaddaa;
+		}
+	</style>
+</head>
+<body>
+</body>
+<script src="random-avatar.js"></script>
+<script>
+	new Avatar({
+		'rows': 12,
+		'columns': 12,
+		'parent': 'body',
+		'pixels': {
+			'element': 'div',
+			'class': 'pixel',
+			'color': null
+		}
+	});
+</script>
+</html>
