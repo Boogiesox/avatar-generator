@@ -1,2 +1,2 @@
 # avatar-generator
-Random sprite generator useful for avatars or other applications.
+Random sprite generator. A useful solution for a need of randomized default avatars in applications.
